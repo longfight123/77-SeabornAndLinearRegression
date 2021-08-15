@@ -1,3 +1,16 @@
+"""Film budgets vs box office revenue analysis
+
+This 'script' analyzes a film bugdgets vs box office revenue dataset to answer questions such as:
+    Is there a relationship between movie budgets and box office revenue?
+    What is the trend of the quantity of movie releases over time?
+    How much money would a X budget film generate according to our linear regression?
+A linear regression of the data is performed using sklearn. The results of the analysis are visualized using Seaborn.
+
+This script requires that 'pandas', 'Matplotlib', 'Seaborn', and 'scikit-learn' be installed within the Python
+environment you are running this script in.
+
+"""
+
 #!/usr/bin/env python
 # coding: utf-8
 
